@@ -176,9 +176,16 @@ header img {
     background-color: #fff;
     width: 45%;
     border: 2px solid black;
+    border-radius: 5px;
     padding: 1rem;    
     margin: 1rem;
-    z-index: 999;
+}
+
+.service figure:hover {
+    background-color: #ff5151;
+    cursor: pointer;
+    color: #000;
+    box-shadow: 2px 2px 0px #000;
 }
 
 .service figure img {
@@ -206,8 +213,16 @@ header img {
     width: 25%;
     background-color: #fff;
     border: 2px solid black;
+    border-radius: 5px;
     padding: 0.4rem;
     padding: 2rem;
+}
+
+.testimonial:hover {
+    background-color: #f4f963;
+    cursor: pointer;
+    color: #000;
+    box-shadow: 2px 2px 0px #000;
 }
 
 .testimonial img {
@@ -266,6 +281,7 @@ footer {
     flex-flow: row nowrap;
     align-items: center;
     padding: 1rem;
+    justify-content: space-between;
 }
 
 footer ul {
