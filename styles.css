@@ -16,14 +16,19 @@ main {
 }
 .orange-gradient {
     background: rgb(255,255,255);
-    background: linear-gradient(144deg, rgba(255,255,255,1) 30%,
+    background: linear-gradient(144deg, 
+    rgba(255,255,255,1) 30%,
     rgba(255,175,95,1) 30%);
+    background-attachment: fixed;
 }
 
-.white-gradient {
+/* .white-gradient {
     background: rgb(255,255,255);
-background: linear-gradient(9deg, rgba(255,255,255,1) 50%, rgba(255,175,95,1) 50%);
-} 
+background: linear-gradient(9deg, 
+rgba(255,255,255,1) 50%, 
+rgba(255,175,95,1) 50%);
+background-attachment: local;
+} */
 
 button {
     border: 2px solid black;
